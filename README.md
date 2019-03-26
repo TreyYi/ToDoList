@@ -10,6 +10,7 @@ Vanilla JS version of the productivity app <Momentum> extension on Chrome (https
 - [x] Offline Support
 - [ ] Daily Quote
 - [ ] Daily Photo
+- [ ] Add Function to Load Image Faster
 
 ## You can try it here:
 
