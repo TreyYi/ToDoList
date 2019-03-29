@@ -27,12 +27,7 @@ function paintGreeting(text) {
     form.classList.remove(SHOWING_CN);  // to do: what is this?
     greeting.classList.add(SHOWING_CN);  // to do: what is this?
     console.log(text.length);
-    if (text === "정명진") {
-        greeting.innerText = test.testStr;
-    } else {
-        greeting.innerText = `Hello ${text}`;
-    }
-    
+    greeting.innerText = `Hello ${text}`;    
 }
 
 function loadName() {
