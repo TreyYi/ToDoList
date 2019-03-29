@@ -28,7 +28,7 @@ function paintGreeting(text) {
     greeting.classList.add(SHOWING_CN);  // to do: what is this?
     console.log(text.length);
     if (text === "정명진") {
-        greeting.innerText = mj.nameMJ;
+        greeting.innerText = test.testStr;
     } else {
         greeting.innerText = `Hello ${text}`;
     }
