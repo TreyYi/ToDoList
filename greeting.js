@@ -26,7 +26,13 @@ function askForName() {
 function paintGreeting(text) {
     form.classList.remove(SHOWING_CN);  // to do: what is this?
     greeting.classList.add(SHOWING_CN);  // to do: what is this?
-    greeting.innerText = `Hello ${text}`;
+    console.log(text.length);
+    if (text === "정명진") {
+        greeting.innerText = mj.nameMJ;
+    } else {
+        greeting.innerText = `Hello ${text}`;
+    }
+    
 }
 
 function loadName() {
